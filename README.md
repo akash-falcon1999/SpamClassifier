@@ -1,2 +1,2 @@
 # SpamClassifier
-Spam Classifier with Naive Bayes Classifier built with Streamlit
+Spam Classifier with Multinomial Naive Bayes Algorithm built with Streamlit
