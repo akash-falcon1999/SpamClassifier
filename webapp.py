@@ -13,7 +13,7 @@ from nltk.corpus import stopwords
 import string
 
 #nlp model
-df=pd.read_csv(r'C:\Users\AKASH\Desktop\DATA SCIENCE\spam_filter\spam.csv')
+df=pd.read_csv(r'spam.csv')
 df=df.drop(['Unnamed: 2','Unnamed: 3','Unnamed: 4'],axis=1)
 df.rename(columns={'v1':'labels','v2':'message'},inplace=True)
 df.drop_duplicates(inplace=True)
